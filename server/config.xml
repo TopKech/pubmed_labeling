@@ -1,0 +1,22 @@
+<View>
+  <Text name="full_text" value="$full_text"/>
+  <View style="box-shadow: 2px 2px 5px #999;
+               padding: 20px; margin-top: 2em;
+               border-radius: 5px;">
+    <Header value="Choose text sentiment"/>
+    <Choices name="sentiment" toName="full_text"
+             choice="single" showInLine="true">
+      <Choice value="Causes"/>
+      <Choice value="NotCauses"/>
+      <Choice value="Reduces"/>
+      <Choice value="HardToDefine"/>
+      <Choice value="Skip"/>
+    </Choices>
+  </View>
+  <Labels name="ner" toName="full_text">
+    <Label value="Mutation" background="red"/>
+    <Label value="Disiase" background="green"/>
+    <Label value="Ethnicity" background="orange"/>
+    <Label value="MakeDecisionSentence" background="blue"/>
+  </Labels>
+</View>
