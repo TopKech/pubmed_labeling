@@ -1,9 +1,7 @@
 version: "2"
 services: 
     webserver:
-        container_name: webserver
-        image: pubmed_labeling:latest
-        build: .
+        image: izinckevich/pubmed_labeling:latest
         volumes:
             - ./server:/webserver
         command: bash -c "label-studio start ."
