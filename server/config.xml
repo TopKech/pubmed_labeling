@@ -19,4 +19,10 @@
     <Label value="Ethnicity" background="orange"/>
     <Label value="MakeDecisionSentence" background="blue"/>
   </Labels>
+  <Relations>
+    <Relation value="Causes"/>
+    <Relation value="NotCauses"/>
+    <Relation value="Reduces"/>
+    <Relation value="Skip"/>
+  </Relations>
 </View>
