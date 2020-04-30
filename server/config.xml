@@ -23,6 +23,5 @@
     <Relation value="Causes"/>
     <Relation value="NotCauses"/>
     <Relation value="Reduces"/>
-    <Relation value="Skip"/>
   </Relations>
 </View>
